@@ -13,8 +13,6 @@ export default withSentryConfig(withSentryConfig(withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
-org: "javascript-mastery",
-project: "care-pulse",
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
@@ -46,8 +44,7 @@ automaticVercelMonitors: true,
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
-org: "healthcare-h1",
-project: "javascript-nextjs",
+
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
@@ -84,8 +81,7 @@ automaticVercelMonitors: true,
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
-org: "healthcare-h1",
-project: "javascript-nextjs",
+
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
